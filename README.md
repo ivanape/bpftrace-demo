@@ -26,3 +26,5 @@ Tutorial: https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_line
 
 # bcc
 
+Install in WSL2: https://github.com/iovisor/bcc/blob/master/INSTALL.md#wslwindows-subsystem-for-linux---binary
+
