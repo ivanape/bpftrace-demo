@@ -28,12 +28,6 @@ Tutorial: https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_line
 
 Install in WSL2: https://github.com/iovisor/bcc/blob/master/INSTALL.md#wslwindows-subsystem-for-linux---binary
 
-Alternative version:
-
-```
-sudo apt install build-essential libelf-dev linux-headers-generic
-sudo apt-get -y install bcc
-```
 
 # aya
 
