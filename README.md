@@ -10,7 +10,7 @@ Setup the vagrant session (this will take a while).
 make setup
 ```
 
-Once vagrant session is up, you can verify your install for `bcc`using the "hello world" python script:
+Once vagrant session is up, you can verify your install for `bcc` using the "hello world" python script:
 
 ```sh
 vagrant ssh
@@ -85,4 +85,4 @@ https://github.com/grafana/beyla
 
 ## Credits
 
-Vagrantfile was took from: https://github.com/booyaa/vagrant-bcctools
+- https://github.com/booyaa/vagrant-bcctools
