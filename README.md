@@ -31,4 +31,8 @@ Install in WSL2: https://github.com/iovisor/bcc/blob/master/INSTALL.md#wslwindow
 
 # aya
 
-Link: https://aya-rs.dev/
+https://aya-rs.dev/
+
+# beyla
+
+https://github.com/grafana/beyla
