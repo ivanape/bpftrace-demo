@@ -1,4 +1,6 @@
-# bpftrace-demo
+# bpftrace
+
+Working on WSL 2 Ubuntu 22.04.3, kernel 5.15.133.1-microsoft-standard-WSL2
 
 To install bpftrace:
 
@@ -17,3 +19,8 @@ sudo apt install ubuntu-dbgsym-keyring
 sudo apt update
 sudo apt install bpftrace-dbgsym
 ```
+
+Tutorial: https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
+
+# bcc
+
