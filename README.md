@@ -45,8 +45,6 @@ After `vagrant ssh`, you can run any tool such as `execsnoop` by calling it dire
 
 ```sh
 sudo execsnoop-bpfcc
-
-sudo /usr/sbin/execsnoop-bpfcc
 ```
 
 
@@ -58,24 +56,18 @@ To install bpftrace:
 sudo apt install bpftrace
 ```
 
-To install debug symbols to run probes like BEGIN or END:
-
-```
-echo "deb http://ddebs.ubuntu.com $(lsb_release -cs) main restricted universe multiverse
-deb http://ddebs.ubuntu.com $(lsb_release -cs)-updates main restricted universe multiverse
-deb http://ddebs.ubuntu.com $(lsb_release -cs)-proposed main restricted universe multiverse" | \
-sudo tee -a /etc/apt/sources.list.d/ddebs.list
-sudo apt install ubuntu-dbgsym-keyring
-sudo apt update
-sudo apt install bpftrace-dbgsym
-```
-
 Tutorial: https://github.com/iovisor/bpftrace/blob/master/docs/tutorial_one_liners.md
 
 # bcc
 
-Install in WSL2: https://github.com/iovisor/bcc/blob/master/INSTALL.md#wslwindows-subsystem-for-linux---binary
+To install bcc:
 
+
+```
+sudo apt-get install -y bpfcc-tools "linux-headers-$(uname -r)"
+```
+
+Tutorial: https://github.com/iovisor/bcc/blob/master/docs/tutorial.md
 
 # aya
 
