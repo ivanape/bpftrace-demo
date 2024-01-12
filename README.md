@@ -1,6 +1,8 @@
-# bpftrace
+# Environment
 
-Working on WSL 2 Ubuntu 22.04.3, kernel 5.15.133.1-microsoft-standard-WSL2
+WSL 2 Ubuntu 22.04.3, kernel 5.15.133.1-microsoft-standard-WSL2
+
+# bpftrace
 
 To install bpftrace:
 
