@@ -1,4 +1,4 @@
-open_port: 443
+open_port: 8080
 print_traces: true
 prometheus_export:
   port: 8999
