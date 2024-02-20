@@ -1,0 +1,4 @@
+open_port: 443
+print_traces: true
+prometheus_export:
+  port: 8999
